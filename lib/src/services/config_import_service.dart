@@ -25,11 +25,11 @@ class ConfigImportService {
     // }
   }
 
-  Future<String> showImportUrlDialog(BuildContext context) {
+  Future showImportUrlDialog(BuildContext context) {
     return showDialog(
         context: context,
         builder: (context) {
-          Show dialog to get URL
+          return Container(); // Show dialog to get URL
         });
   }
 }
